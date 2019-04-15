@@ -4,8 +4,8 @@
 import os, imp, math, ROOT
 import numpy as np
 
-tdrstyle = imp.load_source('tdrstyle', '/Users/dm/bin/tdrstyle.py')
-CMS_lumi = imp.load_source('CMS_lumi', '/Users/dm/bin/CMS_lumi.py') 
+tdrstyle = imp.load_source('tdrstyle', 'tdrstyle.py')
+CMS_lumi = imp.load_source('CMS_lumi', 'CMS_lumi.py') 
 
 def signaleff():
 
